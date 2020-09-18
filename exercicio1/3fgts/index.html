@@ -1,0 +1,24 @@
+<!--
+3. Calcular o FGTS de um funcionário sabendo que:
+a. Entre 1000 e 2000 = 8%
+b. Entre 2000 e 3000 = 12%
+c. Entre 2000 e 4000 = 15%
+Solicite o salário e mostre o valor do depósito do FGTS
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<!-- pescoço -->
+<body>
+  <form action="a.php" method="get">
+    <input type="text" name="salario" placeholder="Salário"
+      onkeypress="return event.charCode == 13 || event.charCode == 46 || event.charCode >= 48 && event.charCode <= 57" />
+    <input type="submit" value="Calcular FGTS" />
+  </form>
+</body>
+</html>

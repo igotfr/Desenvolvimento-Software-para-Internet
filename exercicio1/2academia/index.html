@@ -1,0 +1,25 @@
+<!--
+2. Uma academia possui duas modalidades de esportes: Judô, e Bale.
+Se a pessoa, pesa até 50 quilos, fará balé. Se a pessoa tem menos de 30 anos ou pesa mais de 100 kilos fará judô.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<!-- pescoço -->
+<body>
+  <form action="a.php" method="get">
+    <input type="text" name="peso" placeholder="Peso"
+      onkeypress="return event.charCode == 13 || event.charCode == 46 || event.charCode >= 48 && event.charCode <= 57"
+    /><br />
+    <input type="text" name="idade" placeholder="Idade"
+      onkeypress="return event.charCode == 13 || event.charCode >= 48 && event.charCode <= 57"
+    /><br />
+    <input type="submit" value="Saber" />
+  </form>
+</body>
+</html>

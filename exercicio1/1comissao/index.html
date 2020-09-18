@@ -1,0 +1,24 @@
+<!--
+1. Um vendedor recebe comissões de acordo com a lista abaixo:
+a. R$ 1000,00 a R$ 1500,00: 5%
+b. R$ 1501,00 a R$ 2000,00: 10%
+Crie um programa WEB que receba o valor total de vendas de um vendedor, e calcule sua comissão
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<!--pescoço-->
+<body>
+  <form action="a.php" method="GET">
+    <input type="text" name="totalVendas" size=23 placeholder="Valor total de vendas do vendedor"
+      onkeypress="return event.charCode == 13 || event.charCode == 46 || event.charCode >= 48 && event.charCode <= 57"
+    />
+    <input type="submit" value="Calcular" />
+  </form>
+</body>
+</html> 

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<!-- pescoço -->
+<body>
+  <form action="controllerOperacoesBancarias.php" method="GET">
+    <fieldset>
+      <legend>Cliente:</legend>
+
+      <input type="text" name="nome" placeholder="Nome" />
+
+      <input type="text" name="cpf" placeholder="CPF" />
+
+    </fieldset>
+
+    <fieldset>
+      <legend>Conta:</legend>
+
+      <input type="text" name="numero" placeholder="Número" />
+
+      <input type="text" name="saldo" size=23 placeholder="Saldo"
+        onkeypress="return event.charCode == 13 || event.charCode == 46 || event.charCode >= 48 && event.charCode <= 57"
+      />
+    </fieldset>
+
+    <input type="submit" value="Enviar" />
+  </form>
+</body>
+</html> 

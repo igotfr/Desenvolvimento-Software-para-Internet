@@ -1,0 +1,24 @@
+<!--
+4. Crie um programa WEB que receba 03 valores e diga, se é um triangulo equilátero, isósceles ou escaleno;
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<!-- pescoço -->
+<body>
+  <form action="a.php" method="get">
+    <input type="text" name="lado1triangulo" placeholder="Lado 1 do triângulo"
+      onkeypress="return event.charCode == 13 || event.charCode == 46 || event.charCode >= 48 && event.charCode <= 57" />
+    <input type="text" name="lado2triangulo" placeholder="Lado 2 do triângulo"
+      onkeypress="return event.charCode == 13 || event.charCode == 46 || event.charCode >= 48 && event.charCode <= 57" />
+    <input type="text" name="lado3triangulo" placeholder="Lado 3 do triângulo"
+      onkeypress="return event.charCode == 13 || event.charCode == 46 || event.charCode >= 48 && event.charCode <= 57" /><br />
+    <input type="submit" value="Tipo de triângulo" />
+  </form>
+</body>
+</html>
